@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,700;1,400&family=Poppins:wght@400;600&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'PT Serif', serif; */
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    margin: auto;
+    background-color: #ffff;
+}
+.container {
+    width:80%;
+    margin: 0 auto;
+}
+.content-container{
+    margin-top:20px;
+}
+.one{
+    display: flex;
+    justify-content: space-between ;
+}
+.one .header{
+   font-family: 'PT Serif', serif;
+   justify-content: flex-start;
+   font-weight:700;
+   font-size:36px;
+}
+.one .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: 'Poppins', sans-serif;
+    width: 50%;
+}
+.text p{
+    font-weight:400;
+    font-weight:18px;
+}
+.text h2{
+    font-weight:600;
+    font-weight:18px;
+}
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sub-card img{
+    width:264px;
+    height:383px;
+}
+.card p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.row1 .card:nth-child(2){
+    margin-top: 200px;
+}
+.row2 .card:nth-child(2){
+    margin-top: 200px;
+}
+footer{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size :14px;
+    color: #A9A9A9;
+    margin-bottom: 1px;
+    text-align: center;
+}
+.sub-card .role {
+    margin-left: 5px;
+    font-family: 'PT Serif', serif;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    font-style: italic;
+}
+.sub-card{
+    display: flex;
+}
+@media only screen and (max-width: 768px){
+    
+    .one{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .row1{
+        display: flex;
+        width: 40%;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        gap: 20px;
+    }
+    .row1 .image{
+        width:1px;
+        height:4px;
+        margin: 5px;
+        width:100%;
+    }
+    .row2{
+        display: flex;
+        width: 40%;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        gap: 20px;
+        
+    }
+    .row2 .image{
+        width:1px;
+        height:4px;
+        margin: 5px;
+        width:100%;
+    }
+    .row1 .card:nth-child(2){
+    margin-top: 0px;
+}
+    .row2 .card:nth-child(2){
+    margin-top: 0px;
+}
+footer{
+    margin-bottom: 1px;
+    text-align: center;
+}
+    
+}
